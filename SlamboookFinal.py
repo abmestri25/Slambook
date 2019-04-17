@@ -5,7 +5,7 @@ mydatabase=mysql.connector.connect(
     host="localhost",
     user="your_username",
     passwd="user_password",
-    database="database_name"
+    database="slambook"
     )
 mydb=mydatabase.cursor()
 while True:
