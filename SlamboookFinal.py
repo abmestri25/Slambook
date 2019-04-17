@@ -3,9 +3,9 @@ print("SLAMBOOK")
 
 mydatabase=mysql.connector.connect(
     host="localhost",
-    user="Abhi",
-    passwd="Abhishek@0361",
-    database="slambook"
+    user="your_username",
+    passwd="user_password",
+    database="database_name"
     )
 mydb=mydatabase.cursor()
 while True:
