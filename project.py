@@ -1,8 +1,8 @@
 import mysql.connector
 mydatabase=mysql.connector.connect(
     host="localhost",
-    user="Abhi",
-    passwd="Abhishek@0361",
+    user="your_username",
+    passwd="user_password",
     database="slambook"
 )
 print(mydatabase) #to_Check_the_connection
