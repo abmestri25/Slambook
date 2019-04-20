@@ -83,7 +83,7 @@ while True:
        
     elif opt==5: # delete data
         try:
-            num=int(input("Enter ID whose data you want to see\n"))
+            num=int(input("Enter ID whose data you want to delete\n"))
             sql="delete from book where Id=%s"
             val=(num,)
             mydb.execute(sql,val)
